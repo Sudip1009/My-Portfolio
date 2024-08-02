@@ -13,7 +13,9 @@ const Home = () => {
       </div>
       <div className=' lg:w-1/3'>
         <h1 className="text-2xl md:text-3xl font-bold">I am a Frontend Developer</h1>
-        <p>Welcome to my portfolio website! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, maiores?</p>
+        <p className='mt-4'>
+          Welcome to my portfolio!Passionate Frontend Developer crafting beautiful, user-friendly web experiences with modern technologies. Dedicated to performance, accessibility, and seamless interactions.
+        </p>
         <a href="/resume.pdf" download={true}>
         <button className='text-white rounded-lg border-2 px-6 py-3 my-2 shadow-md shadow-blue-500/50 
        relative flex items-center hover:delay-300 before:absolute before:inset-0 before:bg-blue-500/50
