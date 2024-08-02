@@ -1,1 +1,5 @@
-Combined content from both your local changes and the remote repository.
+<<<<<<< HEAD
+Your local changes
+=======
+Changes from the remote repository
+>>>>>>> origin/main
