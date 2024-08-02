@@ -42,8 +42,8 @@ const Navbar = () => {
             </button>
             {isExperienceOpen && (
               <div className="absolute top-10 left-0 w-40 bg-black shadow-md rounded-md dark:bg-gray-700">
-                <Link to="/experience/skills" className="nav block px-4 py-2 dark:text-gray-200  dark:hover:bg-gray-600" onClick={closeProjectsMenu}>Skills</Link>
-                <Link to="/experience/works" className="nav block px-4 py-2 dark:text-gray-200  dark:hover:bg-gray-600" onClick={closeProjectsMenu}>Works</Link>
+                <Link to="/skills" className="nav block px-4 py-2 dark:text-gray-200  dark:hover:bg-gray-600" onClick={closeProjectsMenu}>Skills</Link>
+                <Link to="/works" className="nav block px-4 py-2 dark:text-gray-200  dark:hover:bg-gray-600" onClick={closeProjectsMenu}>Works</Link>
               </div>
             )}
           </div> 
@@ -65,8 +65,8 @@ const Navbar = () => {
             </button>
             {isExperienceOpen && (
               <div className="absolute top-10 left-0 w-40 bg-white shadow-md rounded-md dark:bg-gray-700">
-                <Link to="/experience/skills" className="font-bold underline underline-offset-[5px] decoration-2 decoration-blue-500 block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600" onClick={closeProjectsMenu}>Skills</Link>
-                <Link to="/experience/works" className="font-bold underline underline-offset-[5px] decoration-2 decoration-blue-500 block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600" onClick={closeProjectsMenu}>Works</Link>
+                <Link to="/skills" className="font-bold underline underline-offset-[5px] decoration-2 decoration-blue-500 block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600" onClick={closeProjectsMenu}>Skills</Link>
+                <Link to="/works" className="font-bold underline underline-offset-[5px] decoration-2 decoration-blue-500 block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600" onClick={closeProjectsMenu}>Works</Link>
               </div>
             )}
           </div> 
